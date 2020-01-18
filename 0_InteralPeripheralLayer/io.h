@@ -4,7 +4,7 @@
 #include <Arduino.h>
 
 enum io_port{PortA, PortB, PortC, PortD};
-enum io_pin{Pin0, Pin1, Pin2, Pin3, Pin4, Pin5, Pin7};
+enum io_pin{Pin0, Pin1, Pin2, Pin3, Pin4, Pin5, Pin6，Pin7};
 enum io_direction{Input, Output};
 enum io_level{Low, High};
 enum io_resistor{no_pull, pull_up, pull_down};
