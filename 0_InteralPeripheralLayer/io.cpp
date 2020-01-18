@@ -57,7 +57,7 @@ CIO::CIO(io_port PortNumber, io_pin PinNumber, io_direction Dircetion, io_level 
         else if (this->PinNumber == 4) this->ArduionPinNumber = 4;
         else if (this->PinNumber == 5) this->ArduionPinNumber = 5;
         else if (this->PinNumber == 6) this->ArduionPinNumber = 6;   
-        else if (this->PinNumber == 6) this->ArduionPinNumber = 7;      
+        else if (this->PinNumber == 7) this->ArduionPinNumber = 7;      
     }
 
     if (this->Dircetion == Output)
